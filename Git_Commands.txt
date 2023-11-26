@@ -14,3 +14,6 @@ git switch branch_name: Switch to the existing branch
 git switch -c new_branch_name: Create and switch to a new branch
 git branch -v: Get information about branches in your Git repository
 git show-branch: This command displays the commit messages and commit IDs for each branch
+git branch -d branch_name: delete a branch in Git
+git branch -D branch_name: This forces the deletion of the branch, regardless of whether it's been merged or not.
+git push origin --delete branch_name: Delete the remote branch
