@@ -1,0 +1,16 @@
+Git Commands:
+----------------
+git clone <Repo path>: Clone a repository to your local machine.
+git add .: Stage all changes in the current directory for the next commit.
+git commit -m "commit message": Create a new commit with a descriptive message.
+git push origin <branch name>: Push local commits to the remote repository.
+git pull origin <branch name>: Fetch and merge changes from a remote branch.
+git branch: List all branches in the local repository.
+git branch <new branch name>: Create a new branch without switching to it.
+git checkout <branch name>: Switch to an existing branch.
+git checkout -b <branch name>: Create and switch to a new branch in one step.
+git status: View the status of changes in the working directory.
+git switch branch_name: Switch to the existing branch
+git switch -c new_branch_name: Create and switch to a new branch
+git branch -v: Get information about branches in your Git repository
+git show-branch: This command displays the commit messages and commit IDs for each branch
